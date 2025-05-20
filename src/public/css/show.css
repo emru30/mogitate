@@ -1,0 +1,126 @@
+body {
+    background-color: #f8f8f8;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: 6px;
+    line-height: 1.5;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+    transform: scale(1.1);
+}
+
+button[type="submit"],
+a[href*="products.index"] {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+button[type="submit"] {
+    background-color: #f5c518;
+    color: #000;
+    font-weight: bold;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a[href*="products.index"] {
+    background-color: #ddd;
+    color: #000;
+    font-weight: bold;
+}
+
+.preview img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.form-top {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.image-upload {
+    flex: 1;
+}
+
+.product-info {
+    flex: 2;
+}
+
+.season-options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.description-area {
+    margin-bottom: 30px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.breadcrumb a {
+    color: #000;
+    text-decoration: none;
+}

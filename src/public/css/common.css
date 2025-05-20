@@ -1,0 +1,26 @@
+main {
+    padding-top: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header__bar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 15px;
+}
+
+.app__title {
+    color: #fdd835;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 15px;
+}
